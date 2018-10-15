@@ -1,0 +1,435 @@
+body  {
+	   background-size: 100%;
+	   background-image: url("../Images/background.JPG");
+	   background-repeat: no-repeat;
+	   background-color: #000000;
+	   background-position: 0px 50px;
+	}
+	
+/* ============================= landing page ================================ */
+
+.landingPage h1  { 
+	color: #d6d6d6;
+	width: 84%;
+	font-size: 2.8vw;
+	font-family: 'Playfair Display', serif, Georgia;
+	letter-spacing:5px;
+	margin:-4% 0 0 7%;
+	background-color:black;
+	text-align: center;
+}
+
+.landingPage h3  {
+	color: #969696;
+	font-family: 'Playfair Display', serif, Georgia;
+	font-size: 1.4vw;
+	text-align:center;	
+}
+
+.btnContactMe  {
+	color:#edeeef;
+	background-color:#041b49;
+	margin-top:10%;
+	font-size: 12px;
+}
+
+
+#downloadBtn {
+	 justify-content: center;
+	 display: flex;
+	 visibility: hidden;
+	 margin:0% 15% 0% 0%;
+	 width:70%;
+}
+
+#nameBorder h1{
+	padding: 0px 5px;
+}
+
+#nameBorder  {
+	border:3px solid #4f5051;
+	height:20%;
+	margin:32% 15% 0 0%;
+	width:70%;
+	display: none;
+	
+/*animation 1*/
+-webkit-animation:titleMove 7s;
+   -moz-animation:titleMove 7s;
+    -ms-animation:titleMove 7s;
+     -o-animation:titleMove 7s;
+        animation:titleMove 5s;
+	
+-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	 -ms-animation-fill-mode:forwards;
+	  -o-animation-fill-mode:forwards;
+	   animation-fill-mode:forwards; 
+}
+
+@keyframes titleMove{
+	 0%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes titleMove {
+    0%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes titleMove {
+    0%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes titleMove {
+    0%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+		/* >>>>>>>>>>>>>> Text Scroller Start  >>>>>>>>>>>>>>>>>>*/
+
+.textRoller {
+  margin: 30% 0 0 0;
+  padding: 1em 0em;
+  font: normal 40px/50px 'Julius Sans One', sans-serif;
+  color: #999;
+  font-size: 3em;   
+}
+
+.textRoller p {
+  height: 50px;
+  float: left;
+  margin-right: 0.5em;
+ }
+ 
+.textRoller b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  top: 0px;
+}
+.textRoller .innertextRoller {
+  display: inline-block;
+  /* original font color #e74c3c;1a75ff*/
+  color: #e74c3c;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+ 
+
+/*animation 2*/
+-webkit-animation:textScroll 4s;
+   -moz-animation:textScroll 4s;
+    -ms-animation:textScroll 4s;
+     -o-animation:textScroll 4s;
+        animation:textScroll 4s;
+		
+-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+     -ms-animation-fill-mode:forwards;
+      -o-animation-fill-mode:forwards;
+         animation-fill-mode:forwards; 
+		
+-webkit-animation-delay:1s;
+   -moz-animation-delay:1s;
+    -ms-animation-delay:1s;
+     -o-animation-delay:1s;
+        animation-delay:1s;
+}
+
+@keyframes textScroll{
+	 0%  { top: 0px; }
+    30% { top: -50px; }
+    60% { top: -100px; }
+    100% { top: -150px; }
+}
+
+@-webkit-keyframes textScroll {
+    0%  { top: 0px; }
+    30% { top: -50px; }
+    60% { top: -100px; }
+    100% { top: -150px; }
+}
+@-moz-keyframes textScroll {
+    0%  { top: 0px; }
+    30% { top: -50px; }
+    60% { top: -100px; }
+    100% { top: -150px; }
+}
+@-o-keyframes textScroll {
+    0%  { top: 0px; }
+    30% { top: -50px; }
+    60% { top: -100px; }
+    100% { top: -150px; }
+}
+
+
+.textRoller, .innertextRoller{
+	
+/*animation 3*/
+-webkit-animation: fadeOut 2s;
+   -moz-animation: fadeOut 2s;
+    -ms-animation: fadeOut 2s;
+     -o-animation: fadeOut 2s;
+        animation: fadeOut 2s;
+		
+-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+     -ms-animation-fill-mode:forwards;
+      -o-animation-fill-mode:forwards;
+         animation-fill-mode:forwards; 
+		
+-webkit-animation-delay: 6s;
+   -moz-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+     -o-animation-delay: 6s;
+        animation-delay: 6s;
+}
+	
+@keyframes fadeOut{
+	 0%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+	
+
+		/* >>>>>>>>>>>>>> Text Scroller End  >>>>>>>>>>>>>>>>>>*/
+
+
+
+/* ============================= End of Landing Page ========================= */
+
+/* ============================= Start of About Me =========================== */
+
+	
+.container  {
+	margin-top: 33%;
+	/* border: 2px grey solid; */
+	color: Grey;
+	margin-left: auto;
+	min-width: 90%;
+}
+
+.container h3  {
+	font-size: 3vw;
+	margin-bottom: 3.5vw;
+	color:#444547;
+	font-family: 'Playfair Display', serif, Georgia;
+	text-align:center;
+}
+
+.col-md-4{
+	/* border: 2px black solid; */
+	/* background-color:#1a1a1a; */
+}
+
+.aboutMe {
+	margin-left: 3%;
+}
+
+.aboutMe h4  {
+	font-size: 1.5vw;
+	color: #38a2ad;
+}
+
+.aboutMe li  {
+	list-style-position: inside;
+	font-size: 1.5vw;
+	
+}
+
+.lowerRow  {
+	margin-top: 2vw;
+}
+
+/* ============================= End of About Me ============================= */
+
+/* ============================= Start of Portfolio =========================== */
+
+#carouselHeader {
+	font-size: 3vw;
+	margin: 5% 0 -70px 0;
+	color:#444547;
+	font-family: 'Playfair Display', serif, Georgia;
+	text-align:center;
+}
+
+#portfolioDescriptions{
+	display: none;
+}
+
+.carousel-inner{
+	margin-top: 10%;	
+}	
+ 
+.carousel-item img{
+	width: 1000px;
+	display: block;
+	position: relative;
+	float: none;
+	margin: 0 auto;
+	max-height: 515px;
+	overflow: hidden;	
+	border: 5px #003d66 solid;
+}
+
+.carousel-caption h5{
+	width: 200px;
+	background-color:#29a3a3;
+	color: white;
+	border: 3px black solid;
+	border-bottom: 1px black solid;
+	margin: auto;
+	padding: 0 0 2px 0; 	
+}
+
+.carousel-caption p{
+	width: 200px;
+	background-color:#404040;
+	color: white;
+	border: 2px black solid;
+	margin: auto;
+	padding: 0; 	
+}
+
+.carousel-indicators li {
+  background-color: #006699;
+  
+}
+
+.carousel-indicators .active {
+  background-color: #b2b4b7;
+}
+
+/* ============================= End of Portfolio ============================== */
+/* ============================= Start of Contact ============================== */
+
+#contact h3 {
+	margin-left: auto; 
+	display: block;
+}
+
+#contact a{
+	display: inline-block;
+	margin: 20px auto;
+}
+	
+#contact h6{
+	display: inline-block;
+	color: #00cca3;
+	text-align: center;
+}
+
+
+.contactDiv{
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+
+/* ============================= End of Contact ============================== */
+
+
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+/* ============================= MEDIA BREAKS BELOW! ========================= */
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+
+@media (max-width: 1280px) {
+	.carousel-item img{
+		max-height: 318px;	
+		max-width: 620px;
+		display: block;
+		position: relative;
+		float: none;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 767px) { 
+	body {
+		background-color: #000000;
+		background-image: none;
+	}
+	
+/* ============================= landing page ================================ */
+	
+	.landingPage #nameBorder, .landingPage #downloadBtn {
+		margin-left: auto;
+	}
+	.landingPage button{
+		font-size: 10px;
+	}
+	
+	.aboutMe img{
+		height: 5vw;
+		width: 5vw;
+	}
+	
+	.landingPage h1 {
+		font-size:5vw;
+	}
+	.landingPage h3{
+		font-size:3.5vw;
+	}
+
+/* ============================= End of Landing Page ========================= */
+
+/* ============================= Start of About Me =========================== */
+	
+	.container h3{
+		font-size: 35px;
+		margin-bottom: 5%;
+	}
+		
+	.aboutMe h4 {
+		font-size: 20px;
+	}
+	
+	.aboutMe li {
+		font-size: 15px;
+	}
+
+
+/* ============================= End of About Me ================================== */
+/* ============================= Start Carousel =================================== */
+
+
+
+#carouselHeader {
+	font-size: 35px;
+}
+
+#portfolioDescriptions{
+	display: block;
+}
+
+#portfolioDescriptions h5{
+	color: #00cc7a;
+}
+
+#portfolioDescriptions li {
+	text-align:center;
+	list-style: none;
+	margin-top: 100px;
+	color: grey;
+	margin-left: auto;
+}
+
+#portfolioDescriptions ul {
+	padding-left: 0px;
+}
+
+.carousel-item img, #carouselExampleIndicators{
+	display: none;
+}
+
+
+/* ============================= End of Carousel =================================== */
+
+	
+}
