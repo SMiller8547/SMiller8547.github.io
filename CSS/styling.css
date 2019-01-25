@@ -6,6 +6,12 @@ body  {
 	   background-position: 0px 50px;
 	}
 	
+/* ============================= Animation Pause ======================================= */
+.js-loading *, .js-loading *::before, .js-loading *::after {
+  animation-play-state: paused !important;
+}
+/* ======================================================================================= */
+
 /* ============================= landing page ================================ */
 
 .landingPage h1  { 
