@@ -7,6 +7,13 @@
 	<link rel="stylesheet" href= "CSS/styling.css">
 	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Playfair+Display" rel="stylesheet">
 	<title>Mr. Miller</title>
+  	<script>
+		document.body.classList.add('js-loading');
+		window.addEventListener("load", showPage);
+		function showPage() {
+			document.body.classList.remove('js-loading');
+		}
+	</script>
   </head>
   <body onload="setTimeout(titleTransition, 7800)">
     
